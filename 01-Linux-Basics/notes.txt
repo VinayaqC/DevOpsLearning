@@ -1,0 +1,27 @@
+# in /home/<you>/DevOpsLearning/01-Linux-Basics
+cat > notes.txt <<'EOF'
+Day 1 - Linux Basics
+Commands practiced:
+- pwd, ls, cd, mkdir, touch, cat, cp, mv, rm
+- chmod, chown, ps, top, df -h, free -m
+Script: check_status.sh - prints current user, disk, RAM
+Next: Docker basics & CI/CD pipeline
+EOF
+
+# go to repo root and add README
+cd ..
+cat > README.md <<'EOF'
+# DevOpsLearning
+
+Public log of my DevOps learning journey.
+
+## Week 1 - Linux Basics
+See 01-Linux-Basics/ for Day 1 artifacts (check_status.sh, notes.txt).
+
+## How to run Day 1 script
+cd 01-Linux-Basics
+./check_status.sh
+EOFDay 1 - Linux Basics
+Commands practiced: ls, cd, pwd, chmod, df, free, ps, top
+Created automation script: check_status.sh
+Learned WSL + VS Code terminal workflow
