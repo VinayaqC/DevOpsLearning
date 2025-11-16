@@ -1,0 +1,17 @@
+# Private keys
+*.pem
+*.key
+
+# Environment variables
+*.env
+
+# Python / Node default exclusions (in case you use them later)
+_pycache_/
+node_modules/
+
+# OS files (Mac/Windows)
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
