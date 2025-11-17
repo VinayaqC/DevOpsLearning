@@ -1,0 +1,14 @@
+System Report for: DESKTOP-4S66S4L
+--------------------------------
+Date: Mon Nov 17 11:17:01 UTC 2025
+User: vinayaq
+OS details:
+PRETTY_NAME="Ubuntu 24.04.3 LTS"
+NAME="Ubuntu"
+VERSION_ID="24.04"
+Top 3 processes by CPU:
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root           1  0.0  0.1  21840 12228 ?        Ss   09:20   0:00 /sbin/init
+root          39  0.0  0.2  50432 15744 ?        S<s  09:20   0:00 /usr/lib/systemd/systemd-journald
+message+     166  0.0  0.0   9596  4992 ?        Ss   09:20   0:00 @dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+You passed 0 arguments.
