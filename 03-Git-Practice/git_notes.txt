@@ -1,0 +1,6 @@
+Day 3 Git Practice
+Learning:
+- branches
+- merges
+- conflicts
+- pull requests
