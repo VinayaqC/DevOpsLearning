@@ -10,7 +10,7 @@ case "$1" in
 
 disk)
 usage=$(df -h / | tail -1 | awk '{print $5}')
-echo "disk usage is: $usage"
+echo "Disk Usage is: $usage"
 ;;
 
 memory)
