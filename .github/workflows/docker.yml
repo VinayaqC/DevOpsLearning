@@ -1,0 +1,17 @@
+name: Docker Build Pipeline
+
+on:
+push:
+branches:
+-main
+
+jobs:
+build:
+run-on: ubuntu-latest
+
+steps:
+-name: Checkout code
+uses: actors/checkout@v3
+
+-name: Build Docker Image
+run: docker build -t mini-project ./04-Docker-Mini-Project
