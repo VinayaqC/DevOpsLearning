@@ -14,3 +14,6 @@ jobs:
 
       - name: Build Docker Image
         run: docker build -t mini-project ./04-Docker-Mini-Project
+
+      - name: List files
+        run: ls -la ./04-Docker-Mini-Project
