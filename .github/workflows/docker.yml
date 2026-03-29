@@ -17,6 +17,14 @@ jobs:
 
       - name: Verify Docker Image
         run: docker images | grep mini-project
-     
-      - name: List files
+
+      - name: Run Container
+        run: |
+          docker rm -f test-container || true
+          docker run -d -p 8083:80 --name test-container mini-project
+
+      - name: Test Application
+      - run: curl -f http://localhost:8083 || exit 1
+
+      - name: Debug project files
         run: ls -la ./04-Docker-Mini-Project
