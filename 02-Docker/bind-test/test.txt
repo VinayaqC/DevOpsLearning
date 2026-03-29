@@ -1,0 +1,2 @@
+Bind mount test
+New content from container
